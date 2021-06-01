@@ -14,10 +14,11 @@ struct LibraryView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(model.librarySongs, id: \.self) { playlist in
-                    Text("Hello")
+                ForEach(model.librarySongs, id: \.self) { song in
+                    SongCardView(song: song)
                 }
             }
+            .navigationBarTitle("Library", displayMode: .automatic)
         }
         .onAppear {
             print("Library Songs: \(model.librarySongs.count)")

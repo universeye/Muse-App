@@ -17,6 +17,7 @@
 		BF6AA1B0266634F4001CD2CF /* PlaylistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */; };
 		BF6AA1B2266638A8001CD2CF /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1B1266638A8001CD2CF /* BlurView.swift */; };
 		BF6AA1B5266640CC001CD2CF /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1B4266640CC001CD2CF /* CornerRadius.swift */; };
+		BF6AA1B726664595001CD2CF /* SongCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1B626664595001CD2CF /* SongCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCardView.swift; sourceTree = "<group>"; };
 		BF6AA1B1266638A8001CD2CF /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		BF6AA1B4266640CC001CD2CF /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		BF6AA1B626664595001CD2CF /* SongCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				BF6AA1AB266633D0001CD2CF /* PlaylistView.swift */,
 				BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */,
 				BF6AA1AD266633DB001CD2CF /* LibraryView.swift */,
+				BF6AA1B626664595001CD2CF /* SongCardView.swift */,
 				BF6AA1B1266638A8001CD2CF /* BlurView.swift */,
 			);
 			path = Views;
@@ -171,6 +174,7 @@
 				BF6AA1AC266633D0001CD2CF /* PlaylistView.swift in Sources */,
 				BF6AA1AE266633DB001CD2CF /* LibraryView.swift in Sources */,
 				BF6AA1B5266640CC001CD2CF /* CornerRadius.swift in Sources */,
+				BF6AA1B726664595001CD2CF /* SongCardView.swift in Sources */,
 				BF6AA19B266630AB001CD2CF /* MuseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
