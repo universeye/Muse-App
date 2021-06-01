@@ -15,7 +15,7 @@ struct LibraryView: View {
         NavigationView {
             List {
                 ForEach(model.librarySongs, id: \.self) { playlist in
-                    PlaylistCardView()
+                    Text("Hello")
                 }
             }
         }

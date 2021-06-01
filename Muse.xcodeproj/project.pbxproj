@@ -16,6 +16,7 @@
 		BF6AA1AE266633DB001CD2CF /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1AD266633DB001CD2CF /* LibraryView.swift */; };
 		BF6AA1B0266634F4001CD2CF /* PlaylistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */; };
 		BF6AA1B2266638A8001CD2CF /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1B1266638A8001CD2CF /* BlurView.swift */; };
+		BF6AA1B5266640CC001CD2CF /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1B4266640CC001CD2CF /* CornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BF6AA1AD266633DB001CD2CF /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCardView.swift; sourceTree = "<group>"; };
 		BF6AA1B1266638A8001CD2CF /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		BF6AA1B4266640CC001CD2CF /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BF6AA19A266630AB001CD2CF /* MuseApp.swift */,
+				BF6AA1B4266640CC001CD2CF /* CornerRadius.swift */,
 				BF6AA1B326663AAF001CD2CF /* Views */,
 				BF6AA1A9266630BC001CD2CF /* Model.swift */,
 				BF6AA19E266630AD001CD2CF /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 				BF6AA1B0266634F4001CD2CF /* PlaylistCardView.swift in Sources */,
 				BF6AA1AC266633D0001CD2CF /* PlaylistView.swift in Sources */,
 				BF6AA1AE266633DB001CD2CF /* LibraryView.swift in Sources */,
+				BF6AA1B5266640CC001CD2CF /* CornerRadius.swift in Sources */,
 				BF6AA19B266630AB001CD2CF /* MuseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

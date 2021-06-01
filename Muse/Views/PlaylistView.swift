@@ -21,7 +21,7 @@ struct PlaylistView: View {
                 })
                 List {
                     ForEach(model.playlists, id: \.self) { playlist in
-                        PlaylistCardView()
+                        PlaylistCardView(playlist: playlist)
                     }
                 }
             }
