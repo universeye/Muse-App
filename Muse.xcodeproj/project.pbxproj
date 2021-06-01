@@ -11,6 +11,11 @@
 		BF6AA19D266630AB001CD2CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA19C266630AB001CD2CF /* ContentView.swift */; };
 		BF6AA19F266630AD001CD2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6AA19E266630AD001CD2CF /* Assets.xcassets */; };
 		BF6AA1A2266630AD001CD2CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6AA1A1266630AD001CD2CF /* Preview Assets.xcassets */; };
+		BF6AA1AA266630BC001CD2CF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1A9266630BC001CD2CF /* Model.swift */; };
+		BF6AA1AC266633D0001CD2CF /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1AB266633D0001CD2CF /* PlaylistView.swift */; };
+		BF6AA1AE266633DB001CD2CF /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1AD266633DB001CD2CF /* LibraryView.swift */; };
+		BF6AA1B0266634F4001CD2CF /* PlaylistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */; };
+		BF6AA1B2266638A8001CD2CF /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AA1B1266638A8001CD2CF /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		BF6AA19E266630AD001CD2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6AA1A1266630AD001CD2CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF6AA1A3266630AD001CD2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6AA1A9266630BC001CD2CF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF6AA1AB266633D0001CD2CF /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		BF6AA1AD266633DB001CD2CF /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCardView.swift; sourceTree = "<group>"; };
+		BF6AA1B1266638A8001CD2CF /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				BF6AA19A266630AB001CD2CF /* MuseApp.swift */,
-				BF6AA19C266630AB001CD2CF /* ContentView.swift */,
+				BF6AA1B326663AAF001CD2CF /* Views */,
+				BF6AA1A9266630BC001CD2CF /* Model.swift */,
 				BF6AA19E266630AD001CD2CF /* Assets.xcassets */,
 				BF6AA1A3266630AD001CD2CF /* Info.plist */,
 				BF6AA1A0266630AD001CD2CF /* Preview Content */,
@@ -67,6 +78,18 @@
 				BF6AA1A1266630AD001CD2CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF6AA1B326663AAF001CD2CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF6AA19C266630AB001CD2CF /* ContentView.swift */,
+				BF6AA1AB266633D0001CD2CF /* PlaylistView.swift */,
+				BF6AA1AF266634F4001CD2CF /* PlaylistCardView.swift */,
+				BF6AA1AD266633DB001CD2CF /* LibraryView.swift */,
+				BF6AA1B1266638A8001CD2CF /* BlurView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6AA1AA266630BC001CD2CF /* Model.swift in Sources */,
+				BF6AA1B2266638A8001CD2CF /* BlurView.swift in Sources */,
 				BF6AA19D266630AB001CD2CF /* ContentView.swift in Sources */,
+				BF6AA1B0266634F4001CD2CF /* PlaylistCardView.swift in Sources */,
+				BF6AA1AC266633D0001CD2CF /* PlaylistView.swift in Sources */,
+				BF6AA1AE266633DB001CD2CF /* LibraryView.swift in Sources */,
 				BF6AA19B266630AB001CD2CF /* MuseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
